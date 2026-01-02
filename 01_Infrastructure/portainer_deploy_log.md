@@ -1,4 +1,4 @@
-## Project Documentation: Infrastructure Foundation (Project 1)
+## Project Documentation: Infrastructure Foundation 
 
 ### 📄 Document: `portainer_deploy_log.md`
 
@@ -39,6 +39,10 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 * **Web UI Access:** `https://localhost:9443`
 * **Authentication:** Admin account initialized with manual password entry.
 * **Environment:** Connected via **Local Unix Socket** (`/var/run/docker.sock`), giving Portainer "Full Control" over the local Docker engine.
+
+<img width="1072" height="508" alt="Screenshot 2026-01-02 004501" src="https://github.com/user-attachments/assets/9eebef98-ab06-4e28-bf07-66cd4dab42d9" />
+
+<img width="1072" height="562" alt="Screenshot 2026-01-02 004517" src="https://github.com/user-attachments/assets/955374ed-a845-44b0-aeee-cdbf07647f30" />
 
 ---
 

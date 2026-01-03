@@ -5,12 +5,12 @@
 ## Terminal Verification
 **Test 1: Sandbox to Default Gateway**
 ```
-    ping -I enp0s3.10 10.10.10.1
+ping -I enp0s3.10 10.10.10.1
 ```
 **Result:** 100% Packet Loss (Expected: Isolation successful).
 **Test 2: Sandbox to Home PC**
 ```
- ping -I enp0s3.10 192.168.1.67
+ping -I enp0s3.10 192.168.1.67
 ```
 **Result:** 100% Packet Loss (Expected: Segmentation successful).
 
